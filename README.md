@@ -1,7 +1,7 @@
 # Cyber_Attack_Detection
 
 Here is an implementation of cyber attack detection baased on MLP NN architecture.
-The following steps are done and the code is offered in both matlab and python.
+The following steps are done and the code is offered in both matlab and jupyter notebook.
 Step 1: Generate extensive closed-loop simulation data of the CSTR under the controller for various initial state conditions within a certain operating region; each simulation runs for a sufficient long period of time aiming to stabilize the CSTR at its steady-state. 
 Step 2: Collect closed-loop data for the CSTR with and without min-max cyber-attack. 
 Step 3: Attacked dataset is labeled as 1, and the dataset without cyber-attack is labeled as 0. An NN-based detector will be built to classify 0-1 and under noisy conditions(2). The input to the neural network is the dynamic trajectories of two states (CA and T).
