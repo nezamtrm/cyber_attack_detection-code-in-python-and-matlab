@@ -25,6 +25,7 @@ A Neural network model architecture implemented using TensorFlow's Keras API. It
 
 ## Result ##
 
+
 ![image](https://user-images.githubusercontent.com/128442592/236099734-dc080c86-aaa1-4b31-a842-365e57043d8f.png)
 
 
