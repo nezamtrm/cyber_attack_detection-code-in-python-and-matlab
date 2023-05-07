@@ -16,7 +16,7 @@ CSTR_train_noise.mat: training input+output data under noisy measurement
 CSTR_test_attack.mat: test input+output data under attack
 CSTR_test_noise.mat: test input+output data under noisy measurement
 
-Note: each data file (.mat) is a data matrix, where the number of rows represents the number of data samples, and the number of columns represents the number of time steps within each data sequence + last column is the output label: 0-no attack, 1-attack)
+Note: each data file (.mat) is a data matrix, where the number of rows represents the number of data samples, and the number of columns represents the number of time steps within each data sequence + last column is the output label: 0-no attack, 1-attack, 2-noise)
 (For example, CSTR_train_normal.mat contains 694*201 data points -- there're 694 data sequences, where each data sequence includes 200 time steps (or called elements), and the last column = 0 represents no attack)
 
 ## Model ##
